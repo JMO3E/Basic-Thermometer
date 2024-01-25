@@ -1,0 +1,4 @@
+RGBLed   KEYWORD1
+begin   KEYWORD2
+changeLedColor    KEYWORD2
+setCustomLedColor KEYWORD2
