@@ -1,5 +1,5 @@
 #include <LiquidCrystal.h>
-#include <TemperatureLed.h>
+#include <RGBLed.h>
 #include <DHT.h>
 
 #define LCD_CONTRAST_PIN 6
@@ -13,7 +13,7 @@
 #define BLUE_PIN 20
 
 LiquidCrystal lcd(13, 12, 5, 4, 3, 2);  
-TemperatureLed led(RED_PIN, GREEN_PIN, BLUE_PIN);
+RGBLed led(RED_PIN, GREEN_PIN, BLUE_PIN);
 DHT dht(DHT_PIN, DHT_TYPE);
 
 void setup() {  

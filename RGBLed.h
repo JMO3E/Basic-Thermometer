@@ -22,9 +22,9 @@ class RGBLed
     void setCustomLedColor(int redColor, int greenColor, int blueColor);
 
   private:
-    int redPin;
-    int greenPin;
-    int bluePin;
+    int _redPin;
+    int _greenPin;
+    int _bluePin;
 };
 
 #endif

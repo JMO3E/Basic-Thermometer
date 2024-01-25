@@ -7,26 +7,26 @@
 #include "Arduino.h"
 #include "RGBLed.h"
 
-RGBLed::RGBLed(int _redPin, int _greenPin, int _bluePin) {
-    redPin = _redPin;
-    greenPin = _greenPin;
-    bluePin = _bluePin;
+RGBLed::RGBLed(int redPin, int greenPin, int bluePin) {
+    _redPin = redPin;
+    _greenPin = greenPin;
+    _bluePin = bluePin;
 }
 
 void RGBLed::begin() {
-    pinMode(redPin, OUTPUT);
-    pinMode(greenPin, OUTPUT);
-    pinMode(bluePin, OUTPUT);
+    pinMode(_redPin, OUTPUT);
+    pinMode(_greenPin, OUTPUT);
+    pinMode(_bluePin, OUTPUT);
 }
 
 void RGBLed::changeLedColor(int color[3]) {
-    analogWrite(redPin, color[0]);
-    analogWrite(greenPin, color[1]);
-    analogWrite(bluePin, color[2]);
+    analogWrite(_redPin, color[0]);
+    analogWrite(_greenPin, color[1]);
+    analogWrite(_bluePin, color[2]);
 }
 
 void RGBLed::setCustomLedColor(int redColor, int greenColor, int blueColor) {
-    analogWrite(redPin, redColor);
-    analogWrite(greenPin, greenColor);
-    analogWrite(bluePin, blueColor);
+    analogWrite(_redPin, redColor);
+    analogWrite(_greenPin, greenColor);
+    analogWrite(_bluePin, blueColor);
 }
