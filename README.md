@@ -8,13 +8,18 @@
 
 ### Tools & Technologies
 * Hardware & Software - [Arduino](https://www.arduino.cc/)
+* Design Circuit Schematic - [Circuit Maker](https://circuitmaker.com/)
 * Language - [C++](https://cplusplus.com/)
 
-### Schematic
-![Schematic](images/CoinMarketCapETL.png)
+### Circuit Schematic
+<img alt="Circuit Schematic" width="600px" src="images/circuitSchematic.png">
 
-### Thermometer
-![Thermometer Pic](img/CoinMarketCapAnalytics.png)
+### Thermometer Images
+<img alt="Thermometer Image One" width="600px" src="images/imgThree.jpg">
+
+<br>
+
+<img alt="Thermometer Image Two" width="600px" src="images/imgTwo.jpg">
 
 ## Code
 
