@@ -8,11 +8,19 @@
 
 ### Tools & Technologies
 * Hardware & Software - [Arduino](https://www.arduino.cc/)
-* Design Circuit Schematic - [Circuit Maker](https://circuitmaker.com/)
+* CAD - [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/overview)
+* Electronic Circuit Design - [Circuit Maker](https://circuitmaker.com/)
 * Language - [C++](https://cplusplus.com/)
 
-### Circuit Schematic
+### Electronic Circuit Schematic
 <img alt="Circuit Schematic" width="600px" src="images/circuitSchematic.png">
+
+### 3D Model
+<img alt="Basic Thermometer 3D Model - Front" width="600px" src="images/Basic Thermometer 3D Model - Front.png">
+
+<br>
+
+<img alt="Basic Thermometer 3D Model - Front" width="600px" src="images/Basic Thermometer 3D Model - Side.png">
 
 ### Thermometer Images
 <img alt="Thermometer Image One" width="600px" src="images/imgThree.jpg">
