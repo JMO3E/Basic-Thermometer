@@ -12,6 +12,9 @@
 * Electronic Circuit Design - [Circuit Maker](https://circuitmaker.com/)
 * Language - [C++](https://cplusplus.com/)
 
+### Funtional Architecture
+<img alt="Funtional Architecture" width="600px" src="images/Basic-Thermometer-Funtional-Architecture.png">
+
 ### Electronic Circuit Schematic
 <img alt="Circuit Schematic" width="600px" src="images/circuitSchematic.png">
 
